@@ -1,0 +1,297 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+    overflow: auto;
+    margin: 20px auto;
+}
+.main-box{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+    border: 1px solid rgba(255, 255, 255, 0.226);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    
+}
+.main-box2{
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+    border-left: 1px solid rgba(255, 255, 255, 0.226);
+    border-right: 1px solid rgba(255, 255, 255, 0.226);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.226) ;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+   
+   
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.sub1,.sub2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-left: 1px solid rgba(96, 93, 93, 0.342);
+    border-right: 1px solid rgba(255, 255, 255, 0.158);
+   
+}
+.sub1{
+    padding: 8px 20px;
+    margin: 0px 0px 0px 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.215);
+}
+.sub2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    padding: 8px 18px;
+    border-left: 1px solid rgba(147, 145, 145, 0.205);
+    border-right: 1px solid rgba(255, 255, 255, 0.215);
+}
+.sub3{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+.inner-box{
+   
+    padding: 6px 4px ;
+    border-radius: 8px;
+    background-color: rgba(128, 130, 131, 0.45);
+    
+    
+}
+.inner-box :nth-child(1){
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 3px 15px ;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.inner-box :nth-child(2){
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 4px 10px 4px 6px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.b1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+}
+span{
+    width: 0;
+    height: 26px ;
+    border: 1px solid rgba(255, 255, 255, 0.333);
+}
+.t1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 19px;
+    padding: 8px 5px;
+    margin: 5px  14px;
+    text-align: justify;
+}
+.t1:hover{
+    background-color: rgba(128, 128, 128, 0.347);
+    border-radius: 6px;
+    transition: .1s;
+}
+.a{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+.i2{
+    border-top: 1px solid rgba(255, 255, 255, 0.26);
+}
+.m1{
+    display: flex;
+    justify-content: center;
+}
+.div1{
+    height: 520px;
+    
+}
+.div2{
+    padding: 15px;
+    width: 358px;
+    border-left: 1px solid rgba(255, 255, 255, 0.215);
+    border-right: 1px solid rgba(255, 255, 255, 0.217);
+    height: 520px;
+    overflow: auto;
+    scrollbar-width: none;
+    
+    
+    
+}
+input{
+    width: 100%;
+    padding: 6px 6px 6px 20px ;
+    border-radius: 6px;
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.215);
+    color: white;
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.user h3{
+    font-size: 14px;
+}
+.user h3:nth-child(2){
+    font-weight: 500;
+    color: gray;
+}
+.sm h3{
+    font-size: 14px;
+}
+.sm p{
+    font-size: 14px;
+    color: gray;
+}
+.btns{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 10px;
+}
+.sm{
+    margin: 20px 0px; border: 1px solid rgba(255, 255, 255, 0.345);border-radius: 6px;padding: 10px;
+}
+.sm:hover{
+    background-color: rgb(53, 52, 52);
+    transition: .2s;
+    
+}
+
+
+.anchor{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(75, 73, 73);
+    padding: 1px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.div3{
+   
+    align-items: center;
+    height: 520px;
+    width: 700px;
+   
+}
+.title{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(53, 51, 51);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+
+}
+.link{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 1px 10px;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.d3{
+    display: flex;
+    justify-content: center;
+    align-items:start;
+    justify-content: space-between;
+    padding: 20px 20px 5px 20px;
+
+}
+.matter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+.in h3{
+    font-size: 14px;
+}
+.in h4{
+    font-size: 12px;
+}
+.in2 p{
+    color: gray;
+    font-size: 12px;
+}
+.d4 p{
+    color:white;
+    font-size: 14px;
+    padding: 10px 20px;
+}
+.d4{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-top: 1px solid rgba(255, 255, 255, 0.384);
+}
+textarea{
+    background-color: transparent;
+    border-radius: 4px;
+    color: white;
+    margin-bottom: 20px;
+   
+}
+.d5{
+    padding: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.297);
+    margin-bottom: 20px;
+}
+.inn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.d5 button{
+    padding: 5px ;
+    background-color: white;
+    color: black; 
+    border: none;
+    border-radius: 6px;
+}
+::placeholder{
+    padding: 20px;
+}
