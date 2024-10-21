@@ -45,15 +45,15 @@ body{
     align-items: center;
     justify-content: center;
     gap: 10px;
-    border-left: 1px solid rgba(96, 93, 93, 0.342);
-    border-right: 1px solid rgba(255, 255, 255, 0.158);
+    border-left: 1px solid rgba(255, 255, 255, 0.226) ;
+    border-right: 1px solid rgba(255, 255, 255, 0.226) ;
    
 }
 .sub1{
     padding: 8px 20px;
     margin: 0px 0px 0px 10px;
     border-radius: 8px;
-    border: 1px solid rgba(255, 255, 255, 0.215);
+    border: 1px solid rgba(255, 255, 255, 0.226) ;
 }
 .sub2{
     display: flex;
@@ -61,8 +61,8 @@ body{
     justify-content: center;
     gap: 100px;
     padding: 8px 18px;
-    border-left: 1px solid rgba(147, 145, 145, 0.205);
-    border-right: 1px solid rgba(255, 255, 255, 0.215);
+    border-left: 1px solid rgba(255, 255, 255, 0.226) ;
+    border-right: 1px solid rgba(255, 255, 255, 0.226) ;
 }
 .sub3{
     margin: auto;
@@ -75,7 +75,7 @@ body{
    
     padding: 6px 4px ;
     border-radius: 8px;
-    background-color: rgba(128, 130, 131, 0.45);
+    background-color: rgba(255, 255, 255, 0.226) ;
     
     
 }
@@ -105,7 +105,7 @@ body{
 span{
     width: 0;
     height: 26px ;
-    border: 1px solid rgba(255, 255, 255, 0.333);
+    border: 1px solid rgba(255, 255, 255, 0.226) ;
 }
 .t1{
     display: flex;
@@ -117,7 +117,7 @@ span{
     text-align: justify;
 }
 .t1:hover{
-    background-color: rgba(128, 128, 128, 0.347);
+    background-color: rgba(255, 255, 255, 0.226) ;
     border-radius: 6px;
     transition: .1s;
 }
@@ -128,7 +128,7 @@ span{
 
 }
 .i2{
-    border-top: 1px solid rgba(255, 255, 255, 0.26);
+    border-top: 1px solid rgba(255, 255, 255, 0.226) ;
 }
 .m1{
     display: flex;
@@ -141,8 +141,8 @@ span{
 .div2{
     padding: 15px;
     width: 358px;
-    border-left: 1px solid rgba(255, 255, 255, 0.215);
-    border-right: 1px solid rgba(255, 255, 255, 0.217);
+    border-left: 1px solid rgba(255, 255, 255, 0.226) ;
+    border-right: 1px solid rgba(255, 255, 255, 0.226) ;
     height: 520px;
     overflow: auto;
     scrollbar-width: none;
@@ -155,7 +155,7 @@ input{
     padding: 6px 6px 6px 20px ;
     border-radius: 6px;
     background-color: transparent;
-    border: 1px solid rgba(255, 255, 255, 0.215);
+    border: 1px solid rgba(255, 255, 255, 0.226) ;
     color: white;
 }
 .user{
@@ -184,7 +184,7 @@ input{
     margin-top: 10px;
 }
 .sm{
-    margin: 20px 0px; border: 1px solid rgba(255, 255, 255, 0.345);border-radius: 6px;padding: 10px;
+    margin: 20px 0px; border: 1px solid rgba(255, 255, 255, 0.226) ;border-radius: 6px;padding: 10px;
 }
 .sm:hover{
     background-color: rgb(53, 52, 52);
@@ -260,7 +260,7 @@ input{
 .d4{
     margin-top: 20px;
     margin-bottom: 50px;
-    border-top: 1px solid rgba(255, 255, 255, 0.384);
+    border-top: 1px solid rgba(255, 255, 255, 0.226) ;
 }
 textarea{
     background-color: transparent;
@@ -271,7 +271,7 @@ textarea{
 }
 .d5{
     padding: 20px;
-    border-top: 1px solid rgba(255, 255, 255, 0.297);
+    border-top: 1px solid rgba(255, 255, 255, 0.226) ;
     margin-bottom: 20px;
 }
 .inn{
